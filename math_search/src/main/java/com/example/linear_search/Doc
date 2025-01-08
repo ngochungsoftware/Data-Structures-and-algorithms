@@ -1,3 +1,9 @@
 1.Tìm kiếm tuần tự
     - Bài toán : Cho trước dãy a1,a2,... an và giá trị K. Cần tìm chỉ số I sao cho ai = K, nếu không tìm thấy trả về -1
     - ý tưởng: Lần lượt kiểm tra từng phần tử, nếu đến cuối dãy vẫn không tìm thấy thì thông báo kết quả là -1
+
+    - Phân tích:
+        +  Trường hợp tốt nhất: phần tử nằm ngay ở vị trí đầu tiên, số lượng phép so sánh là 1
+        +  Trường hợp trung bình: phần tử nằm ở giữa dãy , số lượng phép so sánh là n/2
+        +  Trường hợp xấu nhất: phần tử nằm ở cuối dãy, số lượng phép so sánh là n
+        +  Tổng thời gian thực hiện là O(n)

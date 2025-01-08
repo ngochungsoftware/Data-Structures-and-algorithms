@@ -1,0 +1,14 @@
+Thuật toán lính canh (Sentinel Linear Search)
+Thuật toán lính canh là một biến thể của tìm kiếm tuần tự (Linear Search), giúp cải thiện hiệu năng bằng cách giảm số
+lần so sánh trong vòng lặp. Thay vì kiểm tra điều kiện kết thúc của mảng trong mỗi lần lặp, thuật toán sử dụng một
+ "lính canh" (sentinel) đặt ở cuối mảng để báo hiệu khi tìm thấy giá trị cần tìm.
+
+Nguyên lý hoạt động
+Thêm lính canh:
+Giá trị cần tìm (target) được gán làm phần tử cuối của mảng, gọi là "lính canh".
+Tìm kiếm:
+Duyệt qua mảng mà không cần kiểm tra giới hạn (điều kiện i < n trong Linear Search).
+Quá trình dừng lại ngay khi tìm thấy giá trị "target".
+Kiểm tra kết quả:
+Nếu phần tử được tìm thấy trước vị trí lính canh, kết quả là chỉ số của phần tử.
+Nếu không, giá trị không tồn tại trong mảng.
