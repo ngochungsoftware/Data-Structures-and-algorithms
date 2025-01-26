@@ -1,0 +1,5 @@
+3. Thuật toán tìm kiếm nhảy Jump Search
+- ý tưởng của thuật toán:
+    + Thay vì tìm kiếm từng bước, chúng ta nhaỷ 1 đoạn xa để có kết quả tìm kiếm nhanh hơn, tiết kiếm thời gian
+    + Xuất phát từ vị trí đầu ti, tìm kiếm theo bước nhảy d > 1. Dừng lặp lại khi có giá trị > K. hoặc đi quá độ dài của dãy
+    + Sau đó tiến hành tìm kiếm trong khoảng có độ dài d

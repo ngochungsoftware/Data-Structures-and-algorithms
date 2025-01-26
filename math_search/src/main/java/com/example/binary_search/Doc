@@ -1,0 +1,10 @@
+Tìm kiếm nhi phân
+Tương tự thuật toán tìm kiếm nhảy
+ ý tưởng:
+    + Nhị phân = Chia đôi
+    1. Tìm giá trị phần tử giữa dãy gọi là X
+    2. Nếu X == K thì X là kết quả và thông báo chỉ số
+    3. Có 2 tình huống:
+        + Nếu X > K thì tìm kiếm ở nửa trái của X
+        + Nếu X < K thì tìm kiếm ở nửa phải của X
+    4. Lặp lại bước 1, 2, 3 cho đến khi tìm được kết quả hoặc đến khi khu vực tìm kiếm là rỗng (-1)
